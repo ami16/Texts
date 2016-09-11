@@ -45,11 +45,19 @@ public class Inventory {
             c = c.replace("  ", "") ;
             c = c.replace("\n", "") ;
             c = c.trim() ;
-            System.out.println(c);
             arr3.add(c) ;
          }
       }
       return arr3 ;
+   }
+
+   public void displayArrayList(ArrayList<String> aList){
+//      for (int x = 0; x < aList.size(); x++) {
+//         System.out.println(aList.get(x));
+//      }
+      for( String l : aList ){
+         System.out.println(l);
+      }
    }
 
    public String[] getSentence(String userReply ){
