@@ -22,7 +22,7 @@ public class Inventory {
       return s;
    }
 
-   public int getCentensesCount( String userReply ){
+   public int getSentencesCount(String userReply ){
       String[] arr = myString().split("\\.") ;
       ArrayList<String> arr2 = new ArrayList<>() ;
 
@@ -34,7 +34,7 @@ public class Inventory {
       return arr2.size() ;
    }
 
-   public ArrayList<String> getCentenses( String userReply ){
+   public ArrayList<String> getSentences(String userReply ){
       String[] arr = myString().split("\\.") ;
       ArrayList<String> arr3 = new ArrayList<>() ;
 
@@ -52,7 +52,7 @@ public class Inventory {
       return arr3 ;
    }
 
-   public String[] getCentense( String userReply ){
+   public String[] getSentence(String userReply ){
       String[] arr = myString().split("\\.") ;
       return arr ;
    }
